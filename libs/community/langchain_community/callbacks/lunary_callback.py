@@ -183,7 +183,7 @@ def _parse_lc_messages(messages: Union[List[BaseMessage], Any]) -> List[Dict[str
 
 
 class LunaryCallbackHandler(BaseCallbackHandler):
-    """Callback Handler for Lunary.
+    """Callback Handler for Lunary`.
 
     #### Parameters:
         - `app_id`: The app id of the app you want to report to. Defaults to
@@ -705,5 +705,3 @@ class LunaryCallbackHandler(BaseCallbackHandler):
             )
         except Exception as e:
             logger.error(f"[Lunary] An error occurred in on_llm_error: {e}")
-
-__all__ = ["LunaryCallbackHandler", "identify"]

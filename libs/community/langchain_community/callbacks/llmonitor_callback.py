@@ -16,6 +16,7 @@ from langchain_community.callbacks.lunary_callback import (
     user_props_ctx,
 )
 
+
 class LLMonitorCallbackHandler(LunaryCallbackHandler):
     """LLMonitorCallbackHandler is deprecated, use LunaryCallbackHandler instead.
       ```
